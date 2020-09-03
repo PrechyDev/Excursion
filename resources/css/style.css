@@ -4,6 +4,48 @@
     padding: 0;
     box-sizing: border-box;
 }
+body, html{
+    background-color: black;
+    font-size: 16px;
+    text-align: center;
+}
 header {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3.125rem;
+    color: white;
+    font-weight: normal;
+    margin: 2.3rem auto;
+}
+a {
+    color: aquamarine;
+    font-size: 1rem;
+}
+img, video{
+    display: block;
+}
+video {
+    width: auto;
+    height: 117vh;
+    margin: 1.5rem auto;
+}
+.guide {
+    color: white;
+    font-size: 2.625rem;
+    font-weight: 300;
+    margin: 2rem;
+}
+.gray-text {
+    color: gray;
+    font-size: 1.313rem;
+    margin: 1.5rem;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 1.2rem auto;
+}
+.copy {
+    color: gray;
+    font-size: 1.313rem;
+    margin: 1.5rem;
+    text-align: right; 
 }
