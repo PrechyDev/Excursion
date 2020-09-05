@@ -25,6 +25,7 @@ img, video{
 video {
     width: auto;
     height: 117vh;
+    max-width: 100%;
     margin: 1.5rem auto;
 }
 .guide {
